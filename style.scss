@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Cookie:400);
+@import url(https://fonts.googleapis.com/css?family=Pacifico|Special+Elite|PT+Mono:400);
+* {
+    margin:0;
+    padding:0;
+    list-style:none;
+    vertical-align:baseline;
+}
+
+div {
+  position:relative;
+  z-index:2;
+}
+
+body {
+  background-color:#4567aa;
+  color:#4567aa;
+  //font-family:'Special Elite', tahoma;
+  font-weight:400;
+}
+.footer {
+  font-family:PT mono;
+  width:450px;
+  text-align:center;
+  display:block;
+  margin:15px auto 30px auto;
+  font-size:0.8em;
+  color:#fff;
+  a {
+    font-weight:700;
+    text-decoration:none;
+    color:#fff;
+  }
+}
+.quote_box {
+  border-radius:3px;
+  position:relative;
+  margin:8% auto auto auto;
+  width:450px;
+  padding:40px 50px;
+  display:table;
+  background-color:#fff;
+  .quote_text {
+    i{
+      font-size:1.0em;
+      margin-right:0.4em;
+    }
+    text-align:left;
+    font-family:'Special Elite', tahoma;
+    //this help produce multi line in javascript
+    white-space:pre-wrap;
+    width:450px;
+    height:auto;
+    clear:both;
+    font-weight:500;
+    font-size:2em;
+  }
+  .quote_author {
+    width:450px;
+    font-family:'Pacifico', tahoma;
+    height:auto;
+    clear:both;
+    padding-top:5px;
+    font-size:1.5em;
+    text-align:right;
+  }
+  .buttons {
+    width:450px;
+    margin:auto;
+    display:block;
+    .button {
+      font-family:'Special Elite', tahoma;
+      float:right;
+      height:38px;
+      border:none;
+      border-radius:3px;
+      color:#fff;
+      background-color:#4567aa;
+      outline:none;
+      font-size:0.85em;
+      padding: 8px 18px 6px 18px;
+      margin-top:30px;
+      opacity:1;
+      cursor:pointer;
+      &:hover {
+        opacity:0.9;
+      }
+      &#tweet_quote, &#tumble_quote {
+        float:left;
+        padding:0px;
+        padding-top:8px;
+        text-align:center;
+        font-size:1.2em;
+        margin-right:5px;
+        height:30px;
+        width:40px;
+      }
+      &#new_quote {
+        float:right;
+      }
+    }
+  }
+}
