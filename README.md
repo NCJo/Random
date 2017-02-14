@@ -4,4 +4,4 @@ The poem is selected from an array of poems written by deshka.words. Each time a
 
 ### How to use
 
-Please view this website in https://codepen.io/NCJo/pen/QdzRxz
+Please view this webpage in https://codepen.io/NCJo/pen/QdzRxz
